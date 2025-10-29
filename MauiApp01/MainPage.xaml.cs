@@ -20,5 +20,11 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        private void OnResetClicked(Object? sender, EventArgs e)
+        {
+            count = 0;
+            CounterBtn.Text = $"Clicked {count} time";
+        }
     }
 }

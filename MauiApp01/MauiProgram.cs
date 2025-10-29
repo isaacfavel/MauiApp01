@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿
+using Microsoft.Extensions.Logging;
 
 namespace MauiApp01
 {
@@ -21,5 +22,9 @@ namespace MauiApp01
 
             return builder.Build();
         }
+
+        
+
+
     }
 }
